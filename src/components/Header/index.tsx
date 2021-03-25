@@ -18,7 +18,7 @@ const Header: React.FC<HeaderProps> = ({ size = 'large' }: HeaderProps) => (
         <Link key="Dashboard" to="/">
           Listagem
         </Link>
-        <Link key="Import" to="/Import">
+        <Link key="Import" to="/import">
           Importar
         </Link>
       </nav>
